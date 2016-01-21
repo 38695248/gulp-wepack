@@ -1,0 +1,32 @@
+/*公共框架布局*/
+.rowbox{display:-webkit-box;display:-moz-box;display:-o-box;display:-ms-box;display:box;list-style:none;vertical-align:top;}
+.row-flex1,.rowbox li{-webkit-box-flex:1;-moz-box-flex:1;-o-box-flex:1;-ms-box-flex:1;box-flex:1;}
+.rowbox-scroll{line-height: 100%; width:100%;overflow-x: scroll;overflow-y: hidden;text-align: left;white-space: nowrap;-webkit-overflow-scrolling: touch;}
+
+/**主体CSS开始**/
+.mainbox{padding-top:50px;padding-bottom:60px;}
+.headerbox,.contentbox,.footerbox{min-width: 320px;max-width:720px;margin-left: auto;margin-right: auto; overflow:hidden}
+.headerbox{background:#fff;text-shadow: none;color: #888;top: -1px;padding-top: 1px;left: 0;right: 0;width: 100%; z-index:998;zoom: 1;position: fixed; overflow:visible}
+.headerbox_in{height: 50px}
+.headerbox_view{background:none; border:none}
+.headerbox_view .h2_title{display:none}
+.top_l{position:absolute; left:10px; top:8px}
+.top_r{position:absolute; right:5px; top:8px; z-index:1009}
+.top_line{border-left:#e0e0e0 solid 1px; margin:0 -4px 0 5px; width:1px; height:32px; display:inline-block; display:none}
+.headerbox_view .top_line{display:none}
+.infomore{background:#fff; border:#e5e5e5 solid 1px; border-radius:4px; position:absolute; width:200px; right:0; top:40px;-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22); display:none}
+.infomore li{border-bottom:#e5e5e5 solid 1px; font-size:16px; line-height:50px; padding:0 20px; z-index:999 }
+.infomore li:last-child{border:none}
+.infomore_num{border-radius: 100%; line-height:20px; text-align:center; display:block; width: 20px;height: 20px; background:#c81d25; color:#fff}
+.infomore .ico_search{margin-top: -12px}
+.ico{display: inline-block;outline: none;position: relative;vertical-align: middle;}
+/*头部购物车*/
+.cart{margin:5px 10px 0 0; position:relative}
+.cartItemnum,.infomnum{display:inline-block; background:#fff000; color:#c81d25; position:absolute; right:-1px; top:-7px; border-radius:100%; width:20px; height:20px; text-align:center;line-height:20px; display:none}
+
+/*尾部*/
+.footerbox{background: #fff; border-top:#e5e5e5 solid 1px; text-shadow: none;color: #888;left: 0;right: 0;width: 100%;z-index:9990;zoom: 1;bottom: -1px;line-height:22px; text-align:center;position: fixed;}
+.footerbox-in{height:45px; padding: 7px 0 3px}
+
+/**西服定制**/
+.custom{}

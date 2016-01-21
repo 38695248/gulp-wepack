@@ -1,0 +1,9 @@
+{
+  "src":"./mobile_src",
+  "dir":"./mobile",
+  "localserver":{
+    "host":"www.byshare.net",
+    "port":"80"
+
+  }
+}

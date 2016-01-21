@@ -1,0 +1,23 @@
+.btn{border-radius:4px; background:#fff;font-size:14px;border:rgba(0, 0, 0, 0.15) solid 1px; padding:7px 7px; margin-right:3px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);background: -webkit-linear-gradient(#fff, #f0f0f0);background: linear-gradient(#fff, #f0f0f0); margin:0 3px; letter-spacing:3px; white-space:nowrap}
+.btn-one{ border-radius:0;}
+.btn-ccc{background:#ccc; border:none; color:#fff;}
+/*浅红*/
+.btn-f46e6f{background:#f46e6f; border:none; color:#fff;}
+/*绿色*/
+.btn-04be01{background:#04be01; border:none; color:#fff;}
+/*橙色*/
+.btn-ff9402{background:#ff9402; border:none; color:#fff;}
+/*蓝色*/
+.btn-0359db{background:#0359db; border:none; color:#fff;}
+/*深红*/
+.btn-cb2027{background:#cb2027; border:none; color:#fff;}
+/*深蓝*/
+.btn-191782{background:#191782; border:none; color:#fff;}
+/*紫色*/
+.btn-7a1786{background:#7a1786; border:none; color:#fff;}
+/*粉红色*/
+.btn-e15a99{background:#e15a99; border:none; color:#fff;}
+.btn-ccc{background:#ccc; border:none; color:#fff;}
+.btn-ff5000{ background:#ff5000; color:#fff}
+.btn-ccc{ background:#ccc; color:#333}
+.btn-s{padding:4px 5px; font-size:12px}

@@ -1,0 +1,46 @@
+{
+  "name": "byshare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "webpack": "^1.12.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "css-loader": "^0.23.1",
+    "expose": "^0.1.4",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-css-spriter": "^0.3.3",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-md5-plus": "^0.2.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-sprite-generator": "^0.2.3",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "gulp.spritesmith": "^6.0.1",
+    "imagemin-pngcrush": "^4.1.0",
+    "loader": "^2.0.0",
+    "node-sass": "^3.4.2",
+    "normalize.css": "^3.0.3",
+    "opn": "^4.0.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "king",
+  "license": "ISC"
+}
